@@ -821,7 +821,7 @@ declare module AceAjax {
         /**
          * Reverts previous changes to your document.
          * @param deltas An array of previous changes
-         * @param dontSelect [If `true`, doesn't select the range of where the change occured]{: #dontSelect}
+         * @param dontSelect [If `true`, doesn't select the range of where the change occurred]{: #dontSelect}
         **/
         undoChanges(deltas: any[], dontSelect: boolean): Range;
 
@@ -833,7 +833,7 @@ declare module AceAjax {
         redoChanges(deltas: any[], dontSelect: boolean): Range;
 
         /**
-         * Enables or disables highlighting of the range where an undo occured.
+         * Enables or disables highlighting of the range where an undo occurred.
          * @param enable If `true`, selects the range of the reinserted change
         **/
         setUndoSelect(enable: boolean);
